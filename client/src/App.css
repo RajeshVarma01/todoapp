@@ -1,0 +1,266 @@
+.App {
+  text-align: center;
+}
+.navbar{
+  /* border: 1px solid black; */
+  /* background-color: #392443; */
+}
+
+.navbar ul{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar ul li{
+  list-style-type: none;
+  background-color: aliceblue;
+  border-radius: 2px;
+  font-size: large;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-edit{
+  border: 2px solid black;
+  background-image: url(https://img.freepik.com/free-photo/front-view-male-student-green-checkered-shirt-wearing-black-backpack-holding-files-blue-wall_140725-42408.jpg?w=900&t=st=1691858571~exp=1691859171~hmac=482aa32539cec77fbfa5037315cf46ed7902d825f5b6a86127fc12e96c4da845);
+  height: 37.3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.stripe{
+  overflow: hidden;
+  width: 100%;
+  /* background-color: red; */
+  height:77px;
+}
+
+.cnt{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.elem{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* background-color: black; */
+  color: white;
+  padding: 0 3vw;
+  flex-shrink: 0;
+}
+
+.photo{
+  width: 6vw;
+  height: 6vw;
+  /* background-color: aquamarine; */
+  border-radius: 25px;
+}
+
+#main{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* background-color: blueviolet; */
+}
+
+.login-email{
+  /* background-color: blueviolet; */
+  /* border: 1px solid red; */
+  height: 50px;
+  /* margin: 30px; */
+  width: 100%;
+  color: white;
+}
+.login-password{
+  /* background-color: brown; */
+  /* border: 1px solid rgb(60, 0, 255); */
+  height: 50px;
+  /* margin: 30px; */
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+}
+
+.email-label{
+  /* border: 2px solid black; */
+  font-size: 20px;
+  font-weight: 600;
+  font-family: t;
+}
+.password-label{
+  /* border: 2px solid black; */
+  font-size: 20px;
+  font-weight: 600;
+  font-family: t;
+}
+.form-controlone{
+  background-color: rgb(253, 204, 255);
+  height: 50px;
+  text-align: center;
+  width: 50%;
+}
+.form-controltwo{
+  background-color: rgb(253, 204, 255);
+  height: 50px;
+  text-align: center;
+  width: 50%;
+  margin-right: 30px;
+}
+.form-design{
+  /* border: 2px solid blueviolet; */
+  /* width: 50%; */
+  height: 50vh;
+  /* margin: 0 20%; */
+}
+.submit-btn{
+  margin-top: 50px;
+  height: 30px;
+  background-color: rgb(86, 159, 86);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-left: 50px;
+  font-size: large;
+  font-weight: 600;
+}
+.submit-btn:hover{
+  background-color: white;
+  color: green;
+  transition: 0.5s;
+}
+.login-page{
+  /* border: 1px solid red; */
+  height: 93vh;
+  background-image: url(https://images.unsplash.com/photo-1586202690180-1967f682ef1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=444&q=80);
+}
+.login-page h1{
+  color: white;
+}
+
+.register-page{
+  /* border: 1px solid blue; */
+  height: 36rem;
+  width: 100%;
+  /* margin-left: 50px; */
+  background-image: url(https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80);
+}
+
+.register-form{
+  /* border: 1px solid rgb(223, 194, 29); */
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.form-control-w{
+  height: 50px;
+  /* background-color: rgb(253, 204, 255); */
+  /* width: 100%; */
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+  font-size: large;
+}
+.form-control-x{
+  height: 50px;
+  margin-left: -2px;
+  /* background-color: rgb(253, 204, 255); */
+  /* width: 100%; */
+  margin-top: 10px;
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+  font-size: large;
+}
+.form-control-y{
+  height: 50px;
+  /* margin-right: 33px; */
+  /* background-color: rgb(253, 204, 255); */
+  /* width: 100%; */
+  margin-top: 10px;
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+  font-size: large;
+}
+.form-control-z{
+  height: 50px;
+  /* margin-right: 100px; */
+  /* background-color: rgb(253, 204, 255); */
+  /* width: 100%; */
+  margin-top: 10px;
+  background-color: rgb(192, 192, 192);
+  text-align: center;
+  font-size: large;
+}
+.form-label{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: t;
+}
+.register-page h1{
+  color: white
+}
+
+.home-edit{
+  height: 37.3rem;
+}
+.home-edit h1{
+  color: white;
+  font-size: 100px;
+}
+
+.home-edit p{
+  color: white;
+}
+.link-btn{
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.link-btn:hover{
+  background-color: green;
+}
+.link-btn-display{
+  background-color: rgb(176, 218, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: small;
+}
+.display-todo-data{
+  /* border: 2px solid blue; */
+}
+.para-display{
+  color: red;
+}
+.table,th,tr,td{
+  border: 1px solid rgb(78, 223, 155);
+  border-collapse: collapse;
+}
+.todos-data{
+  width: 100%;
+  color: green;
+}
+.todo-delete{
+  color: red;
+}
+.todo-update{
+  color: rgb(150, 30, 255);
+}
+.todo-list-data{
+  font-family: 'Times New Roman', Times, serif;
+}
+.edit-btn{
+  margin-top: 19px;
+}
+.logout{
+  background-color: rgb(176, 218, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  /* font-size: small;  */
+}
