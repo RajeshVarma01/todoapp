@@ -12,7 +12,7 @@ app.listen(4000, () => {
 const todoDetails = require("./Model/todoRecord")
 const todoInformation = require("./Model/todoData")
 const mongoose = require("mongoose")
-const DB_URL = "mongodb://127.0.0.1:27017/todoDB"
+const DB_URL = "mongodb+srv://todoapp:todoapp@cluster0.hh7iwhc.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(DB_URL).then((db, err) => {
     if(err) throw err
     else{
