@@ -48,9 +48,10 @@ const Login = () => {
           <label for="Password" className='password-label'>Password:</label>
           <input type='password' name='password' id='password' onChange={onRegisterUser} className='form-controltwo' required/>
         </div>
+        <br/>
         <button type='submit' onClick={onLoginUser} className='submit-btn'>Submit</button>
+        <Link to={'/list'} className='link-btn'>🏛️</Link>
       </form>
-      <Link to={'/list'} className='link-btn'>🏛️</Link>
       <ToastContainer />
     </div>
   )

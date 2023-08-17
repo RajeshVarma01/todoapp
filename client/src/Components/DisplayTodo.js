@@ -5,7 +5,7 @@ const DisplayTodo = () => {
     const [todoDisplay, setTodoDisplay] = useState([])
     const navigate = useNavigate()
     const getTodos = () => {
-        axios.get('http://localhost:4000/')
+        axios.get('https://todo-app-xj31.onrender.com/')
         .then((response) => {
             console.log(response)
             setTodoDisplay(response.data)
@@ -16,7 +16,7 @@ const DisplayTodo = () => {
     }
    
     const deleteTodo = async (id) => {
-        await axios.delete(`http://localhost:4000/${id}`)
+        await axios.delete(`https://todo-app-xj31.onrender.com/${id}`)
         .then((response) => {
           console.log(response)
         }).catch((err) => {

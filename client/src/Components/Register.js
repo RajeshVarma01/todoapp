@@ -24,7 +24,7 @@ const Register = () => {
   const handleRegisterSubmit = async (e) => {
     console.log(addition)
     e.preventDefault()
-    await axios.post('http://localhost:4000/register', addition)
+    await axios.post('https://todo-app-xj31.onrender.com/register', addition)
       .then((response) => {
         console.log(response)
         navigate('/login')
@@ -36,27 +36,27 @@ const Register = () => {
   return (
     <div className='register-page'>
       <h1>COMPLETE YOUR REGISTRATION HERE✅</h1>
-      <form>
+      <form className='form-design-new'>
         <div className='register-form'>
           <label for="Name" className='form-label'>Name:</label>
-          <input type='name' name='name' onChange={handleRegister} className='form-control-w' required />
+          <input type='name' name='name' onChange={handleRegister} className='form-control' required />
         </div>
         <div className='register-form'>
           <label for="Email" className='form-label'>Email:</label>
-          <input type='email' name='email' onChange={handleRegister} className='form-control-x' required />
+          <input type='email' name='email' onChange={handleRegister} className='form-control' required />
         </div>
         <div className='register-form'>
           <label for="Password" className='form-label'>Password:</label>
-          <input type='password' name='password' onChange={handleRegister} className='form-control-y' required />
+          <input type='password' name='password' onChange={handleRegister} className='form-control' required />
         </div>
         <div className='register-form'>
           <label for="confirmPassword" className='form-label'>confirmPassword:</label>
-          <input type='password' name='confirmpassword' onChange={handleRegister} className='form-control-z' required />
+          <input type='password' name='confirmpassword' onChange={handleRegister} className='form-control' required />
         </div>
         <button type='submit' onClick={handleRegisterSubmit} className='submit-btn'>Submit</button>
         <Link to={'/list'} className='link-btn'>🏛️</Link>
-        </form>
-        <ToastContainer />
+      </form>
+      <ToastContainer />
     </div>
   )
 }

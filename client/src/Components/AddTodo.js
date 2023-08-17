@@ -13,7 +13,7 @@ const GetToken = () => {
       if (token === null) {
         navigate("/login")
       } else {
-        const res = await axios.get("http://localhost:4000/addtodo", {
+        const res = await axios.get("https://todo-app-xj31.onrender.com/addtodo", {
           headers: {
             "X-Token": token
           }
@@ -37,7 +37,7 @@ const GetToken = () => {
   }
   const todoSubmit = async (e) => {
     e.preventDefault()
-    await axios.post('http://localhost:4000/add', todos)
+    await axios.post('https://todo-app-xj31.onrender.com/add', todos)
     .then((response) => {
       console.log(response)
       navigate('/displaytodo')
@@ -46,16 +46,14 @@ const GetToken = () => {
     })
   }
   return (
-    <div>
+      <form className='addtodo-design'>
       <h1>Write your todo's here...</h1>
-      <form className='addtodo-design' >
-        <div className='add-todo'>
-          <label for="Todo" className='todo-label'>Todo:</label>
-          <input type='todo' name='todo' id='todo' onChange={todoChange} className='todo-feild' required/>
-        </div>
-        <button type='submit' onClick={todoSubmit} className='submit-btn'>Submit</button><span><Link to={'/login'} className='link-btn'>GO BACK</Link></span>
+          <input type='todo' name='todo' id='todo' onChange={todoChange} className='todo-feild-new' required/>
+        <br/>
+        <br/>
+        <button type='submit' onClick={todoSubmit} className='submit-btn'>Submit</button>
+        <Link to={'/login'} className='link-btn'>GO BACK</Link>
       </form>
-    </div>
   )
   }
 
