@@ -19,6 +19,8 @@ const Login = () => {
     try{
       const res = await loginApi(formData)
       console.log("this is res", res)
+  console.log("process.env.NODE_ENV",process.env.NODE_ENV)
+console.log("checked")
       const tokenObj = res.data.token
       if(tokenObj){
         navigate("/addtodo", {state:tokenObj})

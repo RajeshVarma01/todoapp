@@ -14,10 +14,11 @@ const registerApi = async (registerData) => {
 }
 
 //login api
-
+const prodUrl = process.env.NODE_ENV === "development"? url:"https://todo-app-xj31.onrender.com"
+console.log("url", prodUrl)
 const loginApi = async (loginData) => {
     try{
-        const res = axios.post(url+"/login", loginData)
+        const res = axios.post(prodUrl+"/login", loginData)
         return res
     }catch(e){
         console.log(e)
