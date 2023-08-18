@@ -14,7 +14,8 @@ const registerApi = async (registerData) => {
 }
 
 //login api
-const prodUrl = process.env.NODE_ENV === "development"? url:"https://todo-app-xj31.onrender.com"
+const prodUrl = process.env.NODE_ENV === "development"? "https://todo-app-xj31.onrender.com":url
+// const prodUrl = "https://todo-app-xj31.onrender.com"
 console.log("url", prodUrl)
 const loginApi = async (loginData) => {
     try{
