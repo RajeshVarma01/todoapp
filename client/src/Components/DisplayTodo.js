@@ -45,7 +45,7 @@ const DisplayTodo = () => {
         {
             todoDisplay && todoDisplay.map((tododisp, i) => {
                 return(
-                    <tr key={i}>
+                    <tr key={i} className="tr-key">
                     <td className="table-primary">{i+1}</td>
                     <td><h4 className="todo-list-data">{tododisp.todo}</h4></td>
                     <td><span><button onClick={() => deleteTodo(tododisp._id)}>❌</button></span></td>

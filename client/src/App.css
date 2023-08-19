@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
 .navbar ul{
   display: flex;
   justify-content: space-evenly;
@@ -22,12 +27,12 @@
 }
 
 .home-edit{
-  border: 2px solid black;
-  background-image: url(https://img.freepik.com/free-photo/front-view-male-student-green-checkered-shirt-wearing-black-backpack-holding-files-blue-wall_140725-42408.jpg?w=900&t=st=1691858571~exp=1691859171~hmac=482aa32539cec77fbfa5037315cf46ed7902d825f5b6a86127fc12e96c4da845);
-  height: 37.3rem;
-  background-size: cover;
+  /* border: 2px solid black; */
+  /* background-image: url(https://img.freepik.com/free-photo/front-view-male-student-green-checkered-shirt-wearing-black-backpack-holding-files-blue-wall_140725-42408.jpg?w=900&t=st=1691858571~exp=1691859171~hmac=482aa32539cec77fbfa5037315cf46ed7902d825f5b6a86127fc12e96c4da845); */
+  /* height: 37.3rem; */
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 .stripe{
@@ -98,15 +103,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 70px;
   padding: 20px;
-  /* border: 2px solid yellow; */
   background-color: whitesmoke;
-}
-
-.login-full-page{
-  height: 37.3rem;
-  border: 2px solid rgb(13, 5, 44);
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .submit-btn {
@@ -155,8 +152,6 @@
 }
 .login-page{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  height: 70vh;
-  /* background-image: url(https://images.unsplash.com/photo-1586202690180-1967f682ef1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=444&q=80); */
 }
 .login-page h1{
   color: rgb(38, 168, 68);
@@ -209,21 +204,7 @@
   font-size: large;
 }
 
-.register-page{
-  height: 37.3rem;
-}
-
-.register-page{
-  background: rgb(2,0,36);
-  border: 2px solid rgb(12, 12, 66);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-}
-
-.home-edit{
-  /* height: 37.3rem; */
-}
 .home-edit h1{
-  /* color: white; */
   font-size: 100px;
 }
 
@@ -236,7 +217,6 @@
 }
 
 .o-edit{
-  /* color: rgb(67, 243, 175); */
   color: whitesmoke;
 }
 
@@ -245,7 +225,6 @@
 }
 
 .o-edit-one{
-  /* color: rgb(239, 175, 239); */
   color: whitesmoke;
 }
 
@@ -289,23 +268,38 @@
 .para-display{
   color: red;
 }
+
 .table,th,tr,td{
-  border: 1px solid rgb(78, 223, 155);
+  border: 1px solid white;
   border-collapse: collapse;
 }
 .todos-data{
   width: 100%;
-  color: green;
+  color: white;
 }
 .todo-delete{
-  color: red;
+  color: white;
 }
 .todo-update{
-  color: rgb(150, 30, 255);
+  color: white;
 }
 .todo-list-data{
   font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
 }
+
+.tr-key{
+  color: white;
+}
+
+.table-primary{
+  color: white;
+}
+
+.slno{
+  color: white;
+}
+
 .edit-btn{
   margin-top: 19px;
 }
@@ -320,16 +314,9 @@
   width: fit-content;
   margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  height: 80vh;
+  height: 70vh;
   background-color: whitesmoke;
   border-radius: 5px;
-}
-
-.addtodo-fullpage{
-  border: 2px solid rgb(21, 20, 67);
-  height: 37.2rem;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .todo-name{
@@ -361,16 +348,4 @@
   width: 80%;
   border: 1px solid green;
   border-radius: 5px;
-}
-
-.header-edit{
-  /* border: 2px solid black; */
-  margin-top: 60px;
-}
-
-.edittodo-fullpage{
-  border: 2px solid rgb(26, 23, 82);
-  height: 37.3rem;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
