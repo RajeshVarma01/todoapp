@@ -98,6 +98,15 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 70px;
   padding: 20px;
+  /* border: 2px solid yellow; */
+  background-color: whitesmoke;
+}
+
+.login-full-page{
+  height: 37.3rem;
+  border: 2px solid rgb(13, 5, 44);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .submit-btn {
@@ -167,7 +176,9 @@
  border-radius: 10px;
  width: fit-content;
  margin: 0 auto;
- box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ box-shadow: #ffffff 0px 3px 8px;
+ border: 2px solid white;
+ 
 }
 
 .register-page input{
@@ -188,22 +199,70 @@
 }
 
 .form-label{
-  color:black;
+  color:white;
   font-size: 20px;
   font-weight: 600;
 }
 .register-page h1{
-  color: rgb(38, 168, 68);
+  color: rgb(168, 255, 188);
   font-family: cursive;
   font-size: large;
 }
 
-.home-edit{
+.register-page{
   height: 37.3rem;
 }
+
+.register-page{
+  background: rgb(2,0,36);
+  border: 2px solid rgb(12, 12, 66);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.home-edit{
+  /* height: 37.3rem; */
+}
 .home-edit h1{
-  color: white;
+  /* color: white; */
   font-size: 100px;
+}
+
+.home-edit h2{
+  font-size: 100px;
+}
+
+.t-edit{
+  color: rgb(234, 76, 108);
+}
+
+.o-edit{
+  /* color: rgb(67, 243, 175); */
+  color: whitesmoke;
+}
+
+.d-edit{
+  color: rgb(235, 235, 115);
+}
+
+.o-edit-one{
+  /* color: rgb(239, 175, 239); */
+  color: whitesmoke;
+}
+
+.l-edit{
+  color: rgb(195, 255, 195);
+}
+
+.i-edit{
+  color: rgb(241, 75, 197);
+}
+
+.s-edit{
+  color: rgb(147, 228, 228);
+}
+
+.t-edit-one{
+  color: bisque;
 }
 
 .home-edit p{
@@ -262,6 +321,15 @@
   margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   height: 80vh;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.addtodo-fullpage{
+  border: 2px solid rgb(21, 20, 67);
+  height: 37.2rem;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .todo-name{
@@ -293,4 +361,16 @@
   width: 80%;
   border: 1px solid green;
   border-radius: 5px;
+}
+
+.header-edit{
+  /* border: 2px solid black; */
+  margin-top: 60px;
+}
+
+.edittodo-fullpage{
+  border: 2px solid rgb(26, 23, 82);
+  height: 37.3rem;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }

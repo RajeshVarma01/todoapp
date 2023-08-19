@@ -46,6 +46,7 @@ const GetToken = () => {
     })
   }
   return (
+    <div className='addtodo-fullpage'>
       <form className='addtodo-design'>
       <h1>Write your todo's here...</h1>
           <input type='todo' name='todo' id='todo' onChange={todoChange} className='todo-feild-new' required/>
@@ -54,6 +55,7 @@ const GetToken = () => {
         <button type='submit' onClick={todoSubmit} className='submit-btn'>Submit</button>
         <Link to={'/login'} className='link-btn'>GO BACK</Link>
       </form>
+      </div>  
   )
   }
 

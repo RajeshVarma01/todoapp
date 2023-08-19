@@ -39,6 +39,7 @@ console.log("checked")
     e.preventDefault()
   }
   return (
+    <div className='login-full-page'>
     <div className='login-page'>
       <h1>LOGIN HERE...✅</h1>
       <form className='form-design' onSubmit={onUserDataSubmit}>
@@ -55,6 +56,7 @@ console.log("checked")
         <Link to={'/list'} className='link-btn'>🏛️</Link>
       </form>
       <ToastContainer />
+    </div>
     </div>
   )
 }

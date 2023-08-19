@@ -37,6 +37,7 @@ const EditTodo = () => {
 
   }
   return (
+    <div className='edittodo-fullpage'>
           <form className='addtodo-design' >
           <h1>Edit your todo's here...</h1>
           <div className='edit-todobtn'>
@@ -46,6 +47,7 @@ const EditTodo = () => {
           <br/>
             <button type='submit' onClick={handleEditSubmit} className='submit-btn'>Update</button>  
           </form>
+          </div>      
   )
 }
 
